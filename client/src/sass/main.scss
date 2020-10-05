@@ -1,0 +1,22 @@
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/card";
+@import "components/products";
+@import "components/recentView";
+@import "components/cart";
+@import "components/popup";
+@import "components/reviewScreen";
+
+@import "layout/header";
+@import "layout/navbar";
+@import "layout/footer";
+@import "layout/product";
+@import "layout/form";
+@import "layout/user";
+@import "layout/orders";
+@import "pages/home";

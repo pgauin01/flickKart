@@ -1,0 +1,38 @@
+.heading-primary {
+  font-size: 4rem;
+  letter-spacing: 1px;
+
+  &--light {
+    color: #fff;
+  }
+
+  &--dark {
+    color: $color-grey-dark;
+  }
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+}
+
+.heading-small {
+  font-size: 1.5rem;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.heading-color {
+  font-size: 3rem;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to right, $color-primary, $color-secondary);
+  -webkit-background-clip: text;
+  color: transparent;
+}

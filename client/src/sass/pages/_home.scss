@@ -1,0 +1,38 @@
+.section-products {
+  padding: 5rem 0;
+  background-color: $color-grey-light-1;
+}
+
+.section-cart {
+  padding: 5rem 0;
+  background-color: $color-grey-light-1;
+  display: flex;
+  min-height: 90vh;
+}
+
+.section-product {
+  padding: 5rem;
+}
+
+.section-signup {
+  background-color: $color-grey-light-1;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-user {
+  background-color: $color-grey-light-1;
+  padding: 8rem 6rem;
+}
+
+.section-editForm {
+  height: 80vh;
+  padding: 10rem 10rem;
+}
+
+.section-orders {
+  padding: 5rem 3rem;
+  background-color: $color-grey-light-1;
+}

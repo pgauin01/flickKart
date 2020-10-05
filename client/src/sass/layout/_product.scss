@@ -1,0 +1,139 @@
+.product {
+  display: flex;
+}
+.productleft {
+  display: flex;
+  flex: 0 0 40%;
+  height: 90vh;
+  position: sticky;
+  top: 2%;
+
+  &__images {
+    display: flex;
+    flex: 0 0 20%;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+
+  &__thumbimg {
+    height: 10rem;
+    display: block;
+  }
+
+  &__description {
+    flex: 0 0 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__descimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  &__mainimg {
+    display: block;
+    height: 30rem;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.productright {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 60%;
+
+  &__description {
+    width: 100%;
+    &--text {
+      font-size: 1.6rem;
+    }
+
+    &--box {
+      border: 1px solid #000;
+      padding: 1.5rem 1rem;
+
+      &:nth-child(even) {
+        font-weight: 700;
+        border-bottom: none;
+      }
+      &--border {
+        border-top: none;
+      }
+    }
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__items {
+    flex: 0 0 50%;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+  }
+
+  &__specification {
+    width: 100%;
+    &--heading {
+      flex: 0 0 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &--para {
+      flex: 0 0 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &--box {
+      border: 1px solid #000;
+      padding: 1rem 1rem;
+      display: flex;
+      // flex-direction: column;
+
+      &--left {
+        // flex: 0 0 25%;
+        // padding: 1rem 0;
+      }
+
+      &--right {
+        // flex: 0 0 75%;
+        // padding: 1rem 0;
+      }
+      &--border {
+        border-top: none;
+      }
+    }
+  }
+}
+
+.productreview {
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__box {
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    padding: 2rem;
+  }
+  &__heading {
+    margin: 1rem 0;
+  }
+  &__paragraph {
+    margin: 1rem 0;
+  }
+  &__user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

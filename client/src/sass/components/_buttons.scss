@@ -1,0 +1,121 @@
+.btn {
+  border: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &__order {
+    padding: 1rem;
+    color: #fff;
+    background-color: $color-primary;
+  }
+
+  &__address {
+    align-self: flex-start;
+    padding: 2rem 4rem;
+    background-color: $color-primary;
+    margin-bottom: 2rem;
+    color: #fff;
+  }
+  &:focus {
+    outline: none;
+  }
+
+  &--red {
+    padding: 2rem 3rem;
+    border-radius: 10rem;
+    background-color: $color-secondary;
+    color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    align-self: center;
+    &:hover {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+      transform: translateY(-0.3rem);
+    }
+  }
+  &--white {
+    padding: 2rem 3rem;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: $color-dark;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    align-self: center;
+    &:hover {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+      transform: translateY(-0.3rem);
+    }
+
+    &:active {
+      transform: translateY(-0.1rem);
+    }
+  }
+
+  &--product--1 {
+    padding: 2rem 4rem;
+    background-color: $color-primary;
+    color: #fff;
+  }
+
+  &--product--2 {
+    padding: 2rem 4rem;
+    background-color: $color-secondary;
+    color: #fff;
+  }
+
+  &--cart--1 {
+    padding: 2rem 3rem;
+    background-color: $color-primary;
+    color: #fff;
+  }
+
+  &--cart--2 {
+    padding: 2rem 2rem;
+    background-color: $color-secondary;
+    color: #fff;
+  }
+
+  &--cart--2--wish {
+    padding: 2rem 1rem;
+    background-color: $color-secondary;
+    color: #fff;
+  }
+
+  &--cart--delete {
+    padding: 1rem 2rem;
+    background-color: $color-secondary;
+    color: #fff;
+  }
+
+  &--cart--later {
+    padding: 1rem 2rem;
+    background-color: $color-primary;
+    color: #fff;
+  }
+
+  &__signup {
+    align-self: center;
+    padding: 1rem 3rem;
+    background-color: $color-secondary;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  &__login {
+    align-self: center;
+    padding: 1rem 2rem;
+    background-color: $color-primary;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+    &--link {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}

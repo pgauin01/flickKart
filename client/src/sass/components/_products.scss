@@ -1,0 +1,23 @@
+.products-container {
+  display: flex;
+  // align-content: space-around;
+  // min-height: 160rem;
+  padding: 0 3rem;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+
+.products-container--wish {
+  display: flex;
+  align-content: space-around;
+  min-height: 70rem;
+  padding: 0 4rem;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+}
+
+.recentview-container {
+  padding: 0 3rem;
+}

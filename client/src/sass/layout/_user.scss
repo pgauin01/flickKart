@@ -1,0 +1,105 @@
+.userview {
+  background-color: #fff;
+  display: flex;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+
+  &__content {
+    flex: 1;
+  }
+
+  &__form-container {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 8rem;
+  }
+  &__menu {
+    background: $color-secondary; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      $color-primary,
+      $color-secondary
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      $color-primary,
+      $color-secondary
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    flex: 0 0 30%;
+    padding: 4rem 0;
+    cursor: pointer;
+  }
+  &__content {
+    padding: 4rem 0rem;
+  }
+}
+
+.sidenav {
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    margin-bottom: 1rem;
+    padding: 1rem 4rem;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+
+    &:hover {
+      border-left: 4px solid #fff;
+    }
+  }
+}
+
+.userViewAddress {
+  display: flex;
+  flex: 0 0 70%;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  padding: 5rem 3rem;
+  &__edit {
+    flex: 0 0 100%;
+  }
+  &__input {
+    width: 80%;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+  }
+  &__actions {
+    display: flex;
+    justify-content: start;
+  }
+  &__img {
+    height: 2rem;
+  }
+
+  &__header {
+    height: 3rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: $color-secondary;
+  }
+
+  &__address {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    align-content: space-between;
+    min-height: 33rem;
+
+    &--block {
+      flex: 0 0 30%;
+      background-color: $color-grey-light-1;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      height: 15rem;
+
+      &:not(:nth-child(3n + 0)) {
+        margin-right: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.recentProducts {
+  display: flex;
+  font-size: 1.6rem;
+
+  &__shape {
+    flex: 0 0 1;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__name {
+    padding: 1rem 1rem;
+  }
+
+  &__price {
+    padding: 1rem 1rem;
+  }
+}

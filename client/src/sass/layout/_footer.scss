@@ -1,0 +1,12 @@
+.footer {
+  background-color: $color-grey-dark-3;
+  height: 6rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__text {
+    font-size: 1.6rem;
+  }
+}
